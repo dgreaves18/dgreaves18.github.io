@@ -1,0 +1,21 @@
+{
+  "name": "dgreaves18.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgreaves18/dgreaves18.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgreaves18/dgreaves18.github.io/issues"
+  },
+  "homepage": "https://github.com/dgreaves18/dgreaves18.github.io#readme"
+}
