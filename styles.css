@@ -1,9 +1,9 @@
 body {
-  background-color: antiquewhite;
+  background-color:midnightblue;
   margin: 0;
 }
 #App {
-  border: 1px solid red;
+
 }
 ul {
   list-style-type: none;
@@ -28,37 +28,47 @@ li a:hover {
   background-color:gold;
 }
 #home {
-  height: 50vh;
+  height: 100vh;
   border: 1px solid black;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: x-large;
 }
 #about{
-  height: 50vh;
+  height: 100vh;
   border: 1px solid black;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: x-large;
 }
 #skills{
-  height: 50vh;
+  height: 100vh;
   border: 1px solid black;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: x-large;
 }
 #projects{
-  height: 50vh;
+  height: 100vh;
   border: 1px solid black;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: x-large;
 }
 #contact{
-  height: 50vh;
+  height: 100vh;
   border: 1px solid black;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: x-large;
 }
