@@ -34,7 +34,6 @@ body, html {
 #about{
   height: 100vh;
   border: 1px solid black;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +52,6 @@ body, html {
 #projects{
   height: 100vh;
   border: 1px solid black;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +60,6 @@ body, html {
 #contact{
   height: 100vh;
   border: 1px solid black;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
