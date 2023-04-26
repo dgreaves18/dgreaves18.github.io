@@ -15,7 +15,7 @@ function App() {
         </div>
         <div id="home-info" onClick={(e) => {setDisplayInfo(!displayInfo)}}>?</div>
         {displayInfo && (
-          <span id="info">Rifle Peak, Incline Village, NV</span>
+          <span id="info"><a href="https://www.google.com/maps/place/Rifle+Peak/@39.1898025,-120.0713565,11.72z/data=!4m6!3m5!1s0x8099659e7d9506e7:0xb0bf0ef41a21f81f!8m2!3d39.2893518!4d-119.9918585!16s%2Fg%2F1tr8lt_y" target="_blank">Rifle Peak, Incline Village, NV</a></span>
         )}
       </div>
       <div id="about">
