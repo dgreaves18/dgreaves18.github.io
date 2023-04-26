@@ -57,7 +57,10 @@ function App() {
     }
   }, "?"), displayInfo && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     id: "info"
-  }, "Rifle Peak, Incline Village, NV")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.google.com/maps/place/Rifle+Peak/@39.1898025,-120.0713565,11.72z/data=!4m6!3m5!1s0x8099659e7d9506e7:0xb0bf0ef41a21f81f!8m2!3d39.2893518!4d-119.9918585!16s%2Fg%2F1tr8lt_y",
+    target: "_blank"
+  }, "Rifle Peak, Incline Village, NV"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     id: "about"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "img-crop"
