@@ -2,8 +2,10 @@ body, html {
   height: 100%;
   margin: 0;
 }
-
-.bg {
+html {
+  scroll-behavior: smooth;
+}
+#App { /* formerly .bg wrapped around home div*/
   background-image: url("client/lib/tahoe.JPG");
   height: 100%;
   /* Create the parallax scrolling effect */
@@ -12,35 +14,71 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.img-crop {
+  width: 10vw;
+  height: 20vh;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.profile {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -8%;
+  margin-top: -15%;
+}
 #home {
+  position: relative;
   height: 100vh;
-  border: 1px solid black;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: x-large;
-  /* animation: textFade ease 8s;
-  animation-iteration-count: 1; */
+  animation: fadeIn ease 4s;
 }
-/* @keyframes textFade {
-  0%, 100% {
+@keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  50% {
+  100% {
     opacity: 1;
   }
-} */
-#about{
+}
+.nav-buttons {
+  position: absolute;
+  bottom: 5vh;
+}
+.nav-button {
+  margin: 0 5vw;
+  padding: 1vh;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.nav-button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+a .nav-button {
+  color: white;
+  text-decoration: none;
+}
+#to-top {
+  position: absolute;
+  bottom: 5vh;
+}
+#about {
   height: 100vh;
-  border: 1px solid black;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: x-large;
-
 }
-#skills{
+#skills {
   height: 100vh;
   border: 1px solid black;
   color: white;
@@ -49,93 +87,21 @@ body, html {
   align-items: center;
   font-size: x-large;
 }
-#projects{
+#projects {
+  height: 100vh;
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+#contact {
   height: 100vh;
   border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: x-large;
-}
-#contact{
-  height: 100vh;
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: x-large;
-}
-.hamburger-menu {
-  height: 0;
-}
-#menu__toggle {
-  opacity: 0;
-}
-#menu__toggle:checked + .menu__btn > span {
-  transform: rotate(45deg);
-}
-#menu__toggle:checked + .menu__btn > span::before {
-  top: 0;
-  transform: rotate(0deg);
-}
-#menu__toggle:checked + .menu__btn > span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-#menu__toggle:checked ~ .menu__box {
-  left: 0 !important;
-}
-.menu__btn {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 26px;
-  height: 26px;
-  cursor: pointer;
-  z-index: 1;
-}
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: #616161;
-  transition-duration: .25s;
-}
-.menu__btn > span::before {
-  content: '';
-  top: -8px;
-}
-.menu__btn > span::after {
-  content: '';
-  top: 8px;
-}
-.menu__box {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: -100%;
-  width: 300px;
-  height: 100%;
-  margin: 0;
-  padding: 80px 0;
-  list-style: none;
-  background-color: #ECEFF1;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
-  transition-duration: .25s;
-}
-.menu__item {
-  display: block;
-  padding: 12px 24px;
-  color: #333;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-  transition-duration: .25s;
-}
-.menu__item:hover {
-  background-color: #CFD8DC;
+  position: relative;
 }
