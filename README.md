@@ -1,3 +1,3 @@
 # Portfolio
 
-Available [here](https://dgreaves18.github.io/).
+Available at [dgreaves18.github.io](https://dgreaves18.github.io/).
