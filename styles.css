@@ -49,6 +49,9 @@ html {
   border-radius: 30px;
   animation: infoFadeIn ease 2s;
 }
+#info a {
+  color: white;
+}
 @keyframes infoFadeIn {
   0% {
     opacity: 0;
@@ -95,7 +98,7 @@ html {
   color: white;
 }
 .nav-button:hover {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 a .nav-button {
